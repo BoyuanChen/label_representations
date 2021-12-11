@@ -6,3 +6,4 @@ ipython_config.py
 submit/labels/label_files
 .vscode
 data/
+venv/
