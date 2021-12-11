@@ -87,6 +87,7 @@ if __name__ == "__main__":
     assert model_name in ("vgg19", "resnet110", "resnet32")
     if less_data:
         assert data_level < 90
+    
     print(
         "Start training {}% {} {} model with manual seed {} and model {}.".format(
             data_level, dataset, label, seq_seed, model_name
