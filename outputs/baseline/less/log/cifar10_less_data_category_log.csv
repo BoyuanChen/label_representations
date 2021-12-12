@@ -1,0 +1,2 @@
+Model,Data Level,Seed,Test Loss,Test Acc
+resnet110,1,7,10.35667781829834,0.1278
