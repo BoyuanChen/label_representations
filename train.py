@@ -138,7 +138,7 @@ if __name__ == "__main__":
     scheduler = optim.lr_scheduler.MultiStepLR(
         optimizer, milestones=[299, 449], gamma=0.1
     )
-    epoch_stop = 600
+    epoch_stop = 50
 
     if "category" in label:
         if smoothing > 0:
